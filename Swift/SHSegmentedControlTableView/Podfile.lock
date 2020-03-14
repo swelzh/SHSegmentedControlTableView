@@ -1,0 +1,32 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJRefresh (3.3.1)
+  - SHSegmentedControl (1.3.3):
+    - SHSegmentedControl/SHExtension (= 1.3.3)
+    - SHSegmentedControl/SHSegmentContent (= 1.3.3)
+  - SHSegmentedControl/SHExtension (1.3.3)
+  - SHSegmentedControl/SHSegmentContent (1.3.3):
+    - Masonry
+    - MJRefresh
+    - SHSegmentedControl/SHExtension
+
+DEPENDENCIES:
+  - SHSegmentedControl (from `../../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  SHSegmentedControl:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  SHSegmentedControl: e1aaa41f416984b0c3939f7b9367e0e05ee02ab6
+
+PODFILE CHECKSUM: 79e11987323124b91d4282e2f487c5807b194b53
+
+COCOAPODS: 1.8.4
